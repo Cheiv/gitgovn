@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AliExpirs_app_settings>
+    <Settings>
+        <delivery_address>
+            <name type="country">Russian Federation</name>
+        </delivery_address>
+        <currency>
+            <currency_paying type="money">EUR</currency_paying>
+            <currency_shown type="money">INR Rs.</currency_shown>
+        </currency>
+        <language type="Ru">Ru</language>
+        <notification_settings>
+            <notifications type="Enable">On</notifications>
+            <Promotions_and_sales type="Enable">On</Promotions_and_sales>
+            <mute_notifications type="Disable">Off</mute_notifications>
+            <seller_masages type="Enable">On</seller_masages>
+            <order_updates type="Enable">On</order_updates>
+            <order_massages type="Enable">On</order_massages>
+            <reminder_frequency>
+                <frequency type="days">7</frequency>
+            </reminder_frequency>
+        </notification_settings>
+        <Theme_settings>
+            <font type="style">Arial</font>
+            <theme type="style">Sepia</theme>
+            <brightness type="level">high</brightness>
+        </Theme_settings>
+    </Settings>
+    <Settings>
+        <delivery_address>
+            <name type="country">United Kingdom</name>
+        </delivery_address>
+        <currency>
+            <currency_paying type="money">RU</currency_paying>
+            <currency_shown type="money">EUR</currency_shown>
+        </currency>
+        <language type="EN">EN</language>
+        <notification_settings>
+            <notifications type="Enable">On</notifications>
+            <Promotions_and_sales type="Disable">Off</Promotions_and_sales>
+            <mute_notifications type="Disable">Off</mute_notifications>
+            <seller_masages type="Enable">On</seller_masages>
+            <order_updates type="Disable">Off</order_updates>
+            <order_massages type="Enable">On</order_massages>
+            <reminder_frequency>
+                <frequency type="days">14</frequency>
+            </reminder_frequency>
+        </notification_settings>
+        <Theme_settings>
+            <font type="style">Arial</font>
+            <theme type="style">Dark</theme>
+            <brightness type="level">medium</brightness>
+        </Theme_settings>
+    </Settings>
+    <Settings>
+        <delivery_address>
+            <name type="country">Ukrain</name>
+        </delivery_address>
+        <currency>
+            <currency_paying type="money">USD</currency_paying>
+            <currency_shown type="money">KZT</currency_shown>
+        </currency>
+        <language type="KAZ">KAZ</language>
+        <notification_settings>
+            <notifications type="Enable">On</notifications>
+            <Promotions_and_sales type="Disable">Off</Promotions_and_sales>
+            <mute_notifications type="Enable">On</mute_notifications>
+            <seller_masages type="Disable">Off</seller_masages>
+            <order_updates type="Disable">Off</order_updates>
+            <order_massages type="Disable">Off</order_massages>
+            <reminder_frequency>
+                <frequency type="days">4</frequency>
+            </reminder_frequency>
+        </notification_settings>
+        <Theme_settings>
+            <font type="style">Al Nile</font>
+            <theme type="style">Sand</theme>
+            <brightness type="level">low</brightness>
+        </Theme_settings>
+    </Settings>
+    <Settings>
+        <delivery_address>
+            <name type="country">Czech Republic</name>
+        </delivery_address>
+        <currency>
+            <currency_paying type="money">CZK</currency_paying>
+            <currency_shown type="money">UAN</currency_shown>
+        </currency>
+        <language type="CZ">CZ</language>
+        <notification_settings>
+            <notifications type="Enable">On</notifications>
+            <Promotions_and_sales type="Enable">On</Promotions_and_sales>
+            <mute_notifications type="Enable">On</mute_notifications>
+            <seller_masages type="Enable">On</seller_masages>
+            <order_updates type="Enable">On</order_updates>
+            <order_massages type="Enable">On</order_massages>
+            <reminder_frequency>
+                <frequency type="days">20</frequency>
+            </reminder_frequency>
+        </notification_settings>
+        <Theme_settings>
+            <font type="style">Avenir</font>
+            <theme type="style">Green</theme>
+            <brightness type="level">low</brightness>
+        </Theme_settings>
+    </Settings>
+    <Settings>
+        <delivery_address>
+            <name type="country">Canada</name>
+        </delivery_address>
+        <currency>
+            <currency_paying type="money">RUB</currency_paying>
+            <currency_shown type="money">RUB</currency_shown>
+        </currency>
+        <language type="CZ">CZ</language>
+        <notification_settings>
+            <notifications type="Disable">Off</notifications>
+            <Promotions_and_sales type="Disable">Off</Promotions_and_sales>
+            <mute_notifications type="Disable">Off</mute_notifications>
+            <seller_masages type="Disable">Off</seller_masages>
+            <order_updates type="Disable">Off</order_updates>
+            <order_massages type="Disable">Off</order_massages>
+            <reminder_frequency>
+                <frequency type="days">9</frequency>
+            </reminder_frequency>
+        </notification_settings>
+        <Theme_settings>
+            <font type="style">Kailasa</font>
+            <theme type="style">Tango</theme>
+            <brightness type="level">high</brightness>
+        </Theme_settings>
+    </Settings>
+</AliExpirs_app_settings>

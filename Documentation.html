@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Settings of preferences of an AliExperz application</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            .h {
+            margin-bottom: 0px;						
+            }
+            h3 {
+            margin-top: 0px;								
+            }
+       	</style>
+	</head>
+	<body>
+            <header>
+		<h1>Markup Languages Project</h1>
+		</header>
+		<main>
+                    <article>
+			<header>
+                            <h1 class="h">Documentation for project</h1>
+                            <h3>Settings of preferences of an AliExperz application</h3>
+                            <h3>Table of Contents</h3>
+			</header>
+                            <nav>
+				<ol>
+                                    <li><a href="#intro">Introduction</a></li>
+                                    <li><a href="#methodology">Methodology</a></li>
+                                    <li><a href="#content">Work content</a></li>
+                                    <li><a href="#elDescr">Elements description</a></li>
+                                    <li><a href="#trDescr">Transformation description</a></li>	
+                                    <li><a href="#conclusion">Conclusion</a></li>
+				</ol>
+				</nav>
+				<section>
+                                    <h2 id="intro">Introduction</h2>
+                                    <p>This project represents the preferences of an AliExpress application for mobile. It shows the table with chosen preferences that can be chosen in this mobile application. Also this preferences ordered by Alphabet order and have several blocks marked with color. Green color for reminder frequency set on less than 10 days and red for more than 10 days.</p>
+				</section>
+				<section>
+                                    <h2 id="methodology">Methodology</h2>
+                                    <p>For making this project I used this technologies</p>
+                                    <ul>
+                                        <li>XML</li>
+                                        <li>XML Schema</li>
+                                        <li>HTML</li>
+                                        <li>XSL</li>
+                                        <li>XSLT</li>
+                                    </ul>
+                                    <p>All documenst are valid and well formed. Checked using W3C XML Schema (XSD) Validation online</p>
+				</section>
+				<section>
+                                    <h2 id="content">Work content</h2>
+                                    <p>This project consists of the following files:</p>
+                                    <ol>
+                                        <li><strong>Xml</strong> file</li>
+                                        <li><strong>Xsd</strong> file</li>
+                                        <li><strong>Xslt</strong> file</li>
+                                        <li><strong>Html</strong> file</li>
+                                    </ol>
+				</section>
+				<section>
+                                    <h2 id="elDescr">Elements description</h2>
+                                    <p>The root element is <strong>AliExpirs_app_settings</strong>. It contains 5 different records named <strong>Settings</strong>. Each of them had different preferences chosen.</p>
+                                    <p>Each <strong>Settings</strong> contains the following:</p>
+                                    <ul>
+                                        <li>delivery_address</li>
+                                        <li>currency
+                                            <ul>
+                                                <li>currency_paying</li>
+                                                <li>currency_shown</li>
+                                            </ul>
+                                        </li>
+                                            <li>language</li>
+                                            <li>notification_settings
+                                                <ul>
+                                                    <li>notifications</li>
+                                                    <li>Promotions_and_sales</li>
+                                                    <li>mute_notifications</li>
+                                                    <li>seller_masages</li>
+                                                    <li>order_updates</li>
+                                                    <li>order_massages</li>
+                                                    <li>reminder_frequency
+                                                        <ul>
+                                                            <li>frequency</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>Theme_settings
+                                                <ul>
+                                                    <li>font</li>
+                                                    <li>theme</li>
+                                                    <li>brightness</li>
+                                                </ul> 
+                                            </li>
+                                    </ul>
+				</section>
+				<section>
+                                    <h2 id="trDescr">Transformation description</h2>
+                                    <p>XSLT has been used for this transformation of XML to an HTML table with chosen preferences.</p>
+                                    <p>This table represents the preferences of an AliExperz application for mobile. It shows the table with chosen preferences that can be chosen in this mobile application. Also this preferences ordered by Alphabet order and have several blocks marked with color. Green color for reminder frequency set on less than 10 days and red for more than 10 days.</p>
+                                    <h3>Table itself</h3>
+                                    <table border="1">
+                                        <tr bgcolor="gray">
+                                            <th>Address</th>
+                                            <th>currency_paying</th>
+                                            <th>currency_shown</th>
+                                            <th>language</th>
+                                            <th>notifications</th>
+                                            <th>Promotions_and_sales</th>
+                                            <th>mute_notifications</th>
+                                            <th>seller_masages</th>
+                                            <th>order_updates</th>
+                                            <th>order_massages</th>
+                                            <th>reminder</th>
+                                            <th>font</th>
+                                            <th>theme</th>
+                                            <th>brightness</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Canada</td>
+                                            <td>RUB</td>
+                                            <td>RUB</td>
+                                            <td>CZ</td>
+                                            <td>Off</td>
+                                            <td>Off</td>
+                                            <td>Off</td>
+                                            <td>Off</td>
+                                            <td>Off</td>
+                                            <td>Off</td>
+                                            <td bgcolor="#ff4300">9</td>
+                                            <td>Kailasa</td>
+                                            <td>Tango</td>
+                                            <td>high</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Czech Republic</td>
+                                            <td>CZK</td>
+                                            <td>UAN</td>
+                                            <td>CZ</td>
+                                            <td>On</td>
+                                            <td>On</td>
+                                            <td>On</td>
+                                            <td>On</td>
+                                            <td>On</td>
+                                            <td>On</td>
+                                            <td bgcolor="#FF0000">20</td>
+                                            <td>Avenir</td>
+                                            <td>Green</td>
+                                            <td>low</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Russian Federation</td>
+                                            <td>EUR</td>
+                                            <td>INR Rs.</td>
+                                            <td>Ru</td>
+                                            <td>On</td>
+                                            <td>On</td>
+                                            <td>Off</td>
+                                            <td>On</td>
+                                            <td>On</td>
+                                            <td>On</td>
+                                            <td bgcolor="#32CD32">7</td>
+                                            <td>Arial</td>
+                                            <td>Sepia</td>
+                                            <td>high</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ukrain</td>
+                                            <td>USD</td>
+                                            <td>KZT</td>
+                                            <td>KAZ</td>
+                                            <td>On</td>
+                                            <td>Off</td>
+                                            <td>On</td>
+                                            <td>Off</td>
+                                            <td>Off</td>
+                                            <td>Off</td>
+                                            <td bgcolor="#32CD32">4</td>
+                                            <td>Al Nile</td>
+                                            <td>Sand</td>
+                                            <td>low</td>
+                                        </tr>
+                                        <tr>
+                                            <td>United Kingdom</td>
+                                            <td>RU</td>
+                                            <td>EUR</td>
+                                            <td>EN</td>
+                                            <td>On</td>
+                                            <td>Off</td>
+                                            <td>Off</td>
+                                            <td>On</td>
+                                            <td>Off</td>
+                                            <td>On</td>
+                                            <td bgcolor="#FF0000">14</td>
+                                            <td>Arial</td>
+                                            <td>Dark</td>
+                                            <td>medium</td>
+                                        </tr>
+                                    </table>
+                                    <p>&lt;xsl:for-each&gt;, &lt;xsl:sort&gt;, &lt;xsl:choose&gt; were used to obtain form shown above.</p>
+				</section>
+				<section>
+                                    <h2 id="conclusion">Conclusion</h2>
+                                    <p>It is an examlpe of an application settings, wich offers the opportunity to look inside the preferences of an Aliexperz application</p>
+				</section>
+				<footer>
+                                    <p>The project was made by <strong>Chernookov Ilya</strong></p>
+				</footer>
+                    </article>
+		</main>
+            <footer>
+			Copyright &copy;
+            </footer>
+	</body>
+</html>
